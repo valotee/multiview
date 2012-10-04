@@ -1291,7 +1291,7 @@
 				
 				// reset non-background panels in popover mode (not done above)
 				if ( $('html').hasClass('ui-popover-mode') ) { 
-					wrap.css({'min-height':gsH, })
+					wrap.css({'min-height':gsH })
 						.find('.ui-panel')
 							.not( me ? 'div:jqmData(me="first")' : ':jqmData(panel="main")')
 								.css({'min-height':''})
